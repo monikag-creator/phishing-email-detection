@@ -59,6 +59,5 @@ Outputs: cleaned dataset, model comparison CSV, confusion matrices, ROC curves, 
 - Deploy via a Flask/Streamlit interface for live email classification
 
 ## Author
-
 **Monika G** — B.Tech AI & ML, Sathyabama Institute of Science and Technology
 IICT Summer Internship Program
