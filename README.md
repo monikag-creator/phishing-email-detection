@@ -20,6 +20,19 @@ Uses TF-IDF text features + metadata (URL count, sender domain, urgency words) t
 3. **Model Training** — Logistic Regression, Random Forest, Naive Bayes, Neural Network (MLP)
 4. **Evaluation** — Accuracy, Precision, Recall, F1, ROC-AUC
 
+## Project Structure
+phishing-email-detection/
+├── generate_dataset.py                  # creates the synthetic email dataset
+├── phishing_detection_pipeline.py       # cleaning, feature engineering, training, evaluation
+├── phishing_email_dataset_raw.csv       # original generated dataset
+├── phishing_email_dataset_cleaned.csv   # dataset after text preprocessing
+├── model_comparison_results.csv         # accuracy/precision/recall/F1 per model
+├── model_comparison_chart.png           # bar chart comparing all models
+├── confusion_matrices.png               # confusion matrix per model
+├── roc_curves.png                       # ROC curves for all models
+├── feature_importance.png               # top 20 features (Random Forest)
+└── README.md
+
 ## Results
 
 | Model | Accuracy | F1-Score |
