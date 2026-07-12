@@ -1,6 +1,3 @@
-# phishing-email-detection
-AI-driven phishing email detection using NLP — TF-IDF + metadata features with Logistic Regression, Random Forest, Naive Bayes, and Neural Network classifiers
-
 # Phishing Email Detection using NLP
 
 AI-driven system that classifies emails as **phishing** or **legitimate** using Natural Language Processing and machine learning. Built as part of the IICT AI/ML Summer Internship Program.
