@@ -42,4 +42,4 @@ python3 phishing_detection_pipeline.py
 ```
 
 ## Author
-**Monika G** — B.E. CSE With AI & ML, Sathyabama Institute of Science and Technology
+**Monika G** — B.E.CSE With AI & ML, Sathyabama Institute of Science and Technology
