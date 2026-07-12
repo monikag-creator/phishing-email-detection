@@ -35,6 +35,18 @@ Since a large real-world labeled dataset wasn't available, a **synthetic dataset
 | Naive Bayes | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
 | Neural Network (MLP) | 0.9938 | 0.9878 | 1.0000 | 0.9939 |
 
+### Model Performance Comparison
+![Model Comparison](model_comparison_chart.png)
+
+### Confusion Matrices
+![Confusion Matrices](confusion_matrices.png)
+
+### ROC Curves
+![ROC Curves](roc_curves.png)
+
+### Feature Importance (Random Forest)
+![Feature Importance](feature_importance.png)
+
 Metadata features (`has_suspicious_domain`, `urgency_word_count`) ranked among the top predictors alongside key lexical terms like "verify" and "click" — confirming that combining structural and text signals is more effective than text alone.
 
 ## Tech Stack
@@ -59,5 +71,6 @@ Outputs: cleaned dataset, model comparison CSV, confusion matrices, ROC curves, 
 - Deploy via a Flask/Streamlit interface for live email classification
 
 ## Author
+
 **Monika G** — B.E. CSE With AI & ML, Sathyabama Institute of Science and Technology
 IICT Summer Internship Program
